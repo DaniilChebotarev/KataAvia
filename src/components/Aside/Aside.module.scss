@@ -1,0 +1,51 @@
+
+.aside {
+    background-color: #ffffff;
+    width: 232px;
+    height: 252px;
+    border-radius: 5px;
+    margin-top: -49px;    
+
+    &__quantity {
+        padding-left: 20px;
+        padding-top: 20px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 12px;
+        display: flex;
+        align-items: flex-end;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+
+        color: #4A4A4A;
+    }
+    &__label {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 20px;
+        user-select: none;
+        cursor: pointer;
+        
+    }
+
+    &__input {
+        width: 20px;
+        height: 20px;
+        box-sizing: border-box;
+        border: 1px solid #9ABBCE;
+        border-radius: 2px;
+        appearance: none;
+        margin: 0;
+        cursor: pointer;
+        &:checked {
+            background-image: url(check.svg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            border-color: #2196F3;
+            cursor: pointer;
+        }
+
+    }
+}

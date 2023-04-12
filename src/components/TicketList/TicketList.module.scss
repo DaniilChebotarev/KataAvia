@@ -1,0 +1,28 @@
+.allTickets {
+    margin-top: -200px;
+    
+}
+
+.showMore {
+    margin-left: 255px;
+    &__btn {
+        margin-top: 20px;
+        margin-bottom: 40px;
+        padding-left: 160px;
+        text-align: center;
+        width: 502px;
+        height: 50px;
+        background: #2196F3;
+        border-radius: 5px;
+        font-style: normal;
+        font-size: 12px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        border: 1px solid #2196F3;
+    }
+}
